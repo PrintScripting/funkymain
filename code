@@ -1,0 +1,309 @@
+-Print on TOP.
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Discord = Instance.new("Frame")
+local DoYouJoined = Instance.new("TextLabel")
+local Yes = Instance.new("TextButton")
+local Discord_2 = Instance.new("TextLabel")
+local flash_on = Instance.new("ImageButton")
+local autoplayer = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local script = Instance.new("Frame")
+local scriptbuilditn = Instance.new("TextLabel")
+local player = Instance.new("TextButton")
+local score = Instance.new("TextButton")
+local animations = Instance.new("TextButton")
+local discordv2 = Instance.new("TextLabel")
+local animationsframe = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local touchscore = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Discord.Name = "Discord"
+Discord.Parent = ScreenGui
+Discord.BackgroundColor3 = Color3.fromRGB(214, 7, 255)
+Discord.BorderSizePixel = 0
+Discord.Position = UDim2.new(0.192443922, 0, 0.172962219, 0)
+Discord.Size = UDim2.new(0, 521, 0, 304)
+
+DoYouJoined.Name = "DoYouJoined"
+DoYouJoined.Parent = Discord
+DoYouJoined.BackgroundColor3 = Color3.fromRGB(214, 7, 255)
+DoYouJoined.BorderSizePixel = 0
+DoYouJoined.Position = UDim2.new(0.30682689, 0, 0.0696395263, 0)
+DoYouJoined.Size = UDim2.new(0, 200, 0, 50)
+DoYouJoined.Font = Enum.Font.SourceSans
+DoYouJoined.Text = "Do you joined our Discord?"
+DoYouJoined.TextColor3 = Color3.fromRGB(0, 0, 0)
+DoYouJoined.TextSize = 29.000
+
+Yes.Name = "Yes"
+Yes.Parent = Discord
+Yes.BackgroundColor3 = Color3.fromRGB(255, 255, 5)
+Yes.BorderSizePixel = 0
+Yes.Position = UDim2.new(0.283794254, 0, 0.576739252, 0)
+Yes.Size = UDim2.new(0, 200, 0, 40)
+Yes.Font = Enum.Font.SourceSans
+Yes.Text = "Yes!"
+Yes.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yes.TextSize = 33.000
+
+Discord_2.Name = "Discord"
+Discord_2.Parent = Discord
+Discord_2.BackgroundColor3 = Color3.fromRGB(214, 7, 255)
+Discord_2.BorderSizePixel = 0
+Discord_2.Position = UDim2.new(0.295310587, 0, 0.307971716, 0)
+Discord_2.Size = UDim2.new(0, 200, 0, 50)
+Discord_2.Font = Enum.Font.SourceSans
+Discord_2.Text = "discord.gg/aNRvRkgxCH"
+Discord_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Discord_2.TextSize = 27.000
+
+flash_on.Name = "flash_on"
+flash_on.Parent = Discord
+flash_on.BackgroundTransparency = 1.000
+flash_on.LayoutOrder = 7
+flash_on.Position = UDim2.new(0.20229353, 0, 0.121141583, 0)
+flash_on.Size = UDim2.new(0, 21, 0, 18)
+flash_on.ZIndex = 2
+flash_on.Image = "rbxassetid://3926305904"
+flash_on.ImageRectOffset = Vector2.new(844, 804)
+flash_on.ImageRectSize = Vector2.new(36, 36)
+
+autoplayer.Name = "autoplayer"
+autoplayer.Parent = ScreenGui
+autoplayer.BackgroundColor3 = Color3.fromRGB(59, 255, 0)
+autoplayer.BorderSizePixel = 0
+autoplayer.Position = UDim2.new(0.344746113, 0, 0.0139165008, 0)
+autoplayer.Size = UDim2.new(0, 263, 0, 59)
+autoplayer.Visible = false
+autoplayer.Active = true
+autoplayer.Draggable = true
+
+TextLabel.Parent = autoplayer
+TextLabel.BackgroundColor3 = Color3.fromRGB(59, 255, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 263, 0, 23)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Print: AutoPlayer its running.."
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = autoplayer
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(59, 255, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 0, 0.327279866, 0)
+TextLabel_2.Size = UDim2.new(0, 263, 0, 19)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Thanks for using the script"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextButton.Parent = autoplayer
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextButton.Position = UDim2.new(0, 0, 0.644067824, 0)
+TextButton.Size = UDim2.new(0, 263, 0, 21)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Stop AutoPlayer"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+script.Name = "script"
+script.Parent = ScreenGui
+script.BackgroundColor3 = Color3.fromRGB(205, 255, 38)
+script.BorderSizePixel = 0
+script.Position = UDim2.new(0.781582177, 0, 0.0337972157, 0)
+script.Size = UDim2.new(0, 155, 0, 234)
+script.Visible = false
+script.Active = true
+script.Draggable = true
+
+scriptbuilditn.Name = "script-builditn"
+scriptbuilditn.Parent = script
+scriptbuilditn.BackgroundColor3 = Color3.fromRGB(205, 255, 38)
+scriptbuilditn.BorderSizePixel = 0
+scriptbuilditn.Size = UDim2.new(0, 155, 0, 50)
+scriptbuilditn.Font = Enum.Font.SourceSans
+scriptbuilditn.Text = "Funky Friday "
+scriptbuilditn.TextColor3 = Color3.fromRGB(0, 0, 0)
+scriptbuilditn.TextSize = 14.000
+
+player.Name = "player"
+player.Parent = script
+player.BackgroundColor3 = Color3.fromRGB(28, 12, 255)
+player.BorderSizePixel = 0
+player.Position = UDim2.new(0, 0, 0.212290794, 0)
+player.Size = UDim2.new(0, 155, 0, 50)
+player.Font = Enum.Font.SourceSans
+player.Text = "AutoPlayer (BETA)"
+player.TextColor3 = Color3.fromRGB(255, 255, 255)
+player.TextSize = 14.000
+
+score.Name = "score"
+score.Parent = script
+score.BackgroundColor3 = Color3.fromRGB(28, 12, 255)
+score.BorderSizePixel = 0
+score.Position = UDim2.new(0, 0, 0.626519799, 0)
+score.Size = UDim2.new(0, 155, 0, 50)
+score.Font = Enum.Font.SourceSans
+score.Text = "MoreScore"
+score.TextColor3 = Color3.fromRGB(255, 255, 255)
+score.TextSize = 14.000
+
+animations.Name = "animations"
+animations.Parent = script
+animations.BackgroundColor3 = Color3.fromRGB(28, 12, 255)
+animations.BorderSizePixel = 0
+animations.Position = UDim2.new(0, 0, 0.422896326, 0)
+animations.Size = UDim2.new(0, 155, 0, 50)
+animations.Font = Enum.Font.SourceSans
+animations.Text = "GET ALL ANIMATIONS"
+animations.TextColor3 = Color3.fromRGB(255, 255, 255)
+animations.TextSize = 14.000
+
+discordv2.Name = "discordv2"
+discordv2.Parent = script
+discordv2.BackgroundColor3 = Color3.fromRGB(205, 255, 38)
+discordv2.BorderSizePixel = 0
+discordv2.Position = UDim2.new(0, 0, 0.840195, 0)
+discordv2.Size = UDim2.new(0, 155, 0, 37)
+discordv2.Font = Enum.Font.SourceSans
+discordv2.Text = "discord.gg/aNRvRkgxCH"
+discordv2.TextColor3 = Color3.fromRGB(0, 0, 0)
+discordv2.TextSize = 14.000
+
+animationsframe.Name = "animationsframe"
+animationsframe.Parent = ScreenGui
+animationsframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+animationsframe.Size = UDim2.new(0, 847, 0, 503)
+animationsframe.Visible = false
+
+TextLabel_3.Parent = animationsframe
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.361275107, 0, 0.0969697013, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "You got all animations."
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 75.000
+
+TextButton_2.Parent = animationsframe
+TextButton_2.BackgroundColor3 = Color3.fromRGB(200, 255, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.374262094, 0, 0.514910519, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 73)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Close"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 100.000
+
+touchscore.Name = "touchscore"
+touchscore.Parent = ScreenGui
+touchscore.BackgroundColor3 = Color3.fromRGB(59, 255, 0)
+touchscore.BorderSizePixel = 0
+touchscore.Position = UDim2.new(0.344746113, 0, 0.0139165008, 0)
+touchscore.Size = UDim2.new(0, 263, 0, 59)
+touchscore.Visible = false
+touchscore.Active = true
+touchscore.Draggable = true
+
+TextLabel_4.Parent = touchscore
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(59, 255, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Size = UDim2.new(0, 263, 0, 23)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Print: TouchScore its running.."
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = touchscore
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(59, 255, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0, 0, 0.327279866, 0)
+TextLabel_5.Size = UDim2.new(0, 263, 0, 19)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Thanks for using the script"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+TextButton_3.Parent = touchscore
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_3.Position = UDim2.new(0, 0, 0.644067824, 0)
+TextButton_3.Size = UDim2.new(0, 263, 0, 21)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Stop TouchScore"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+-- Scripts:
+
+local function OHEDM_fake_script() -- Yes.LocalScript 
+	local script = Instance.new('LocalScript', Yes)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		script.Parent.Parent.Parent.Discord.Visible = false
+		script.Parent.Parent.Parent.script.Visible = true
+	end))
+end
+coroutine.wrap(OHEDM_fake_script)()
+local function MSLWAVP_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		script.Parent.Parent.Parent.autoplayer.Visible = false
+	end))
+end
+coroutine.wrap(MSLWAVP_fake_script)()
+local function EMTO_fake_script() -- player.LocalScript 
+	local script = Instance.new('LocalScript', player)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		script.Parent.Parent.Parent.autoplayer.Visible = true
+		script.Parent.Parent.Parent.script.Visible = true
+	end))
+end
+coroutine.wrap(EMTO_fake_script)()
+local function NWXATX_fake_script() -- score.LocalScript 
+	local script = Instance.new('LocalScript', score)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		script.Parent.Parent.Parent.touchscore.Visible = true
+	end))
+end
+coroutine.wrap(NWXATX_fake_script)()
+local function MBAOTN_fake_script() -- animations.LocalScript 
+	local script = Instance.new('LocalScript', animations)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		script.Parent.Parent.Parent.animationsframe.Visible = true
+	end))
+end
+coroutine.wrap(MBAOTN_fake_script)()
+local function REJAAS_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		script.Parent.Parent.Parent.animationsframe.Visible = false
+	end))
+end
+coroutine.wrap(REJAAS_fake_script)()
+local function ACLLMXE_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect((function()
+		script.Parent.Parent.Parent.touchscore.Visible = false
+	end))
+end
+coroutine.wrap(ACLLMXE_fake_script)()
